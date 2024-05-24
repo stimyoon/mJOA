@@ -12,7 +12,7 @@ import SwiftData
 struct mJOAApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            ModifiedJOA.self, Patient.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +25,7 @@ struct mJOAApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ModifiedJOAListView()
         }
         .modelContainer(sharedModelContainer)
     }

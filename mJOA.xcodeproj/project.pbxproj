@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		91EA5D2C2C002E0800FA5A55 /* mJOAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D2B2C002E0800FA5A55 /* mJOAApp.swift */; };
-		91EA5D2E2C002E0800FA5A55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D2D2C002E0800FA5A55 /* ContentView.swift */; };
 		91EA5D302C002E0800FA5A55 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D2F2C002E0800FA5A55 /* Item.swift */; };
 		91EA5D322C002E0900FA5A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EA5D312C002E0900FA5A55 /* Assets.xcassets */; };
 		91EA5D352C002E0900FA5A55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EA5D342C002E0900FA5A55 /* Preview Assets.xcassets */; };
 		91EA5D3F2C002E0900FA5A55 /* mJOATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D3E2C002E0900FA5A55 /* mJOATests.swift */; };
 		91EA5D492C002E0900FA5A55 /* mJOAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D482C002E0900FA5A55 /* mJOAUITests.swift */; };
 		91EA5D4B2C002E0900FA5A55 /* mJOAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D4A2C002E0900FA5A55 /* mJOAUITestsLaunchTests.swift */; };
+		91EA5D5A2C00363A00FA5A55 /* JOAQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D592C00363A00FA5A55 /* JOAQuestionView.swift */; };
+		91EA5D5C2C003A9400FA5A55 /* ModifiedJOAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D5B2C003A9400FA5A55 /* ModifiedJOAView.swift */; };
+		91EA5D5F2C003E0E00FA5A55 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D5E2C003E0E00FA5A55 /* Choice.swift */; };
+		91EA5D612C003E2500FA5A55 /* JOAQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D602C003E2500FA5A55 /* JOAQuestion.swift */; };
+		91EA5D632C003E4400FA5A55 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D622C003E4400FA5A55 /* models.swift */; };
+		91EA5D662C003EF900FA5A55 /* ModifiedJOAListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA5D652C003EF900FA5A55 /* ModifiedJOAListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		91EA5D282C002E0800FA5A55 /* mJOA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mJOA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EA5D2B2C002E0800FA5A55 /* mJOAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mJOAApp.swift; sourceTree = "<group>"; };
-		91EA5D2D2C002E0800FA5A55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91EA5D2F2C002E0800FA5A55 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		91EA5D312C002E0900FA5A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91EA5D342C002E0900FA5A55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +50,12 @@
 		91EA5D442C002E0900FA5A55 /* mJOAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mJOAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EA5D482C002E0900FA5A55 /* mJOAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mJOAUITests.swift; sourceTree = "<group>"; };
 		91EA5D4A2C002E0900FA5A55 /* mJOAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mJOAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91EA5D592C00363A00FA5A55 /* JOAQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JOAQuestionView.swift; sourceTree = "<group>"; };
+		91EA5D5B2C003A9400FA5A55 /* ModifiedJOAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedJOAView.swift; sourceTree = "<group>"; };
+		91EA5D5E2C003E0E00FA5A55 /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		91EA5D602C003E2500FA5A55 /* JOAQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JOAQuestion.swift; sourceTree = "<group>"; };
+		91EA5D622C003E4400FA5A55 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		91EA5D652C003EF900FA5A55 /* ModifiedJOAListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedJOAListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				91EA5D2B2C002E0800FA5A55 /* mJOAApp.swift */,
-				91EA5D2D2C002E0800FA5A55 /* ContentView.swift */,
+				91EA5D5D2C003DFB00FA5A55 /* Models */,
+				91EA5D5B2C003A9400FA5A55 /* ModifiedJOAView.swift */,
+				91EA5D652C003EF900FA5A55 /* ModifiedJOAListView.swift */,
+				91EA5D592C00363A00FA5A55 /* JOAQuestionView.swift */,
 				91EA5D2F2C002E0800FA5A55 /* Item.swift */,
 				91EA5D312C002E0900FA5A55 /* Assets.xcassets */,
 				91EA5D332C002E0900FA5A55 /* Preview Content */,
@@ -128,6 +141,16 @@
 				91EA5D4A2C002E0900FA5A55 /* mJOAUITestsLaunchTests.swift */,
 			);
 			path = mJOAUITests;
+			sourceTree = "<group>";
+		};
+		91EA5D5D2C003DFB00FA5A55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91EA5D5E2C003E0E00FA5A55 /* Choice.swift */,
+				91EA5D602C003E2500FA5A55 /* JOAQuestion.swift */,
+				91EA5D622C003E4400FA5A55 /* models.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91EA5D2E2C002E0800FA5A55 /* ContentView.swift in Sources */,
+				91EA5D632C003E4400FA5A55 /* models.swift in Sources */,
+				91EA5D5A2C00363A00FA5A55 /* JOAQuestionView.swift in Sources */,
+				91EA5D5F2C003E0E00FA5A55 /* Choice.swift in Sources */,
+				91EA5D662C003EF900FA5A55 /* ModifiedJOAListView.swift in Sources */,
 				91EA5D302C002E0800FA5A55 /* Item.swift in Sources */,
+				91EA5D5C2C003A9400FA5A55 /* ModifiedJOAView.swift in Sources */,
+				91EA5D612C003E2500FA5A55 /* JOAQuestion.swift in Sources */,
 				91EA5D2C2C002E0800FA5A55 /* mJOAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
